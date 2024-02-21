@@ -4,11 +4,9 @@ Codes for ''Machine-learning parameter tracking with partial state observation''
 # Example
 
 Suppose we have a chaotic food-chain system of three species: resource, consumer, and predator, descirbed by the following set of nonlinear differential equations:
-$$
 \begin{align}
-sin⁡(α)={opposite \over hypotenuse}={h0 \over c}={h2 \over b}
+\sin(α) = \frac{opposite}{hypotenuse} = \frac{h0}{c} = \frac{h2}{b}
 \end{align}
-$$
 Run ''params_extraction.m'' to get the ground truth and tracked paramter variations of the food chain system:
 
 <img src='results/foodchain.png' width='300'>
