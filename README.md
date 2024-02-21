@@ -21,12 +21,15 @@ Here we proposed a machine-learning framework to achieve the goal with the follo
 
 The details about training and testing phase are described in:
 
-<img src='results/figure1.png' width='300'>
+<p align="center">
+<img src='results/figure1.png' width='500'>
+</p>
 
-Run ''params_extraction.m'' to get the ground truth and tracked paramter variations of the food chain system:
+# Running Example
+Run 'params_extraction.m' to get the ground truth and tracked paramter variations of parameter $K$ in the food chain system:
 
-$e^{i \pi} = -1$
+<p align="center">
+<img src='results/foodchain.png' width='400'>
+</p>
 
-<img src='results/foodchain.png' width='300'>
-
-Change ''system'' to others to track parameters of different systems, e.g., system = 'mg';
+You may change 'system' to others to track parameters of different systems, e.g., system = 'mg';
