@@ -13,13 +13,15 @@ $\frac{d P}{dt} = {\rm x_p} P(\frac{ {\rm y_p} C}{C + {\rm C_0}}-1),$
 
 where $R$, $C$, and $P$ are the population densities of the resource, consumer, and predator species, respectively. The system has seven parameters: $K, x_c, y_c, x_p, y_p, R_0, C_0 > 0$. The goal is to track the variations of a single parameter.
 
-We proposed a machine-learning framework with the following three main features: 
+Here we proposed a machine-learning framework to achieve the goal with the following three main features: 
 
 * Only the measurements from a partial set of the dynamical variables are needed, e.g., we only observe state $[R, C]$
 * Observation of the state from a small number of parameter values suffices, i.e., we only require several constant parameter values in the training phase, 
 * The historical parameter values are not required in real-time parameter tracking.
 
-The details 
+The details about training and testing phase are described in:
+
+<img src='results/figure1.pdf' width='300'>
 
 Run ''params_extraction.m'' to get the ground truth and tracked paramter variations of the food chain system:
 
