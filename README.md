@@ -5,6 +5,6 @@ Codes for ''Machine-learning parameter tracking with partial state observation''
 
 Run ''params_extraction.m'' to get the ground truth and tracked paramter variations of the food chain system:
 
-<img src='results/foodchain.png' width='25'>
+<img src='results/foodchain.png' width='100'>
 
 Change ''system'' to others to track parameters of different systems, e.g., system = 'mg';
