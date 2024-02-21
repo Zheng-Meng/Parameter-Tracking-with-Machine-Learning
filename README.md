@@ -21,7 +21,7 @@ Here we proposed a machine-learning framework to achieve the goal with the follo
 
 The details about training and testing phase are described in:
 
-<img src='results/figure1.pdf' width='300'>
+<img src='results/figure1.png' width='300'>
 
 Run ''params_extraction.m'' to get the ground truth and tracked paramter variations of the food chain system:
 
