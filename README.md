@@ -43,3 +43,22 @@ We offter the codes for four systems: a three-species chaotic food-chain system,
 differential equation system, and the 40-dimensional Lorenz-96 system. You may change 'system' to others to track parameters of different systems, e.g., 'system = mg'.
 
 You may change other commands, for example, set 'bi_paarams' as 2 when 'system' is foodchain to track the variations of the parameter, $y_c$ ; or set 'test_curve = linear' to track sawtooth waveform.
+
+# Citation
+This paper has been published at Physical Review Research: [https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.6.013196](https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.6.013196), and can be cited with the followling bibtex entry:
+```
+@article{PhysRevResearch.6.013196,
+  title = {Machine-learning parameter tracking with partial state observation},
+  author = {Zhai, Zheng-Meng and Moradi, Mohammadamin and Glaz, Bryan and Haile, Mulugeta and Lai, Ying-Cheng},
+  journal = {Phys. Rev. Res.},
+  volume = {6},
+  issue = {1},
+  pages = {013196},
+  numpages = {19},
+  year = {2024},
+  month = {Feb},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevResearch.6.013196},
+  url = {https://link.aps.org/doi/10.1103/PhysRevResearch.6.013196}
+}
+```
