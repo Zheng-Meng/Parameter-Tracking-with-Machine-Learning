@@ -39,7 +39,7 @@ Run 'params_extraction.m' to get the ground truth and tracked paramter variation
 <img src='results/foodchain.png' width='400'>
 </p>
 
-We offter the codes for four systems: a three-species chaotic food-chain system, the chaotic Rössler oscillator, the Mackey-Glass delay 
+We offer codes for four systems: a three-species chaotic food-chain system, the chaotic Rössler oscillator, the Mackey-Glass delay 
 differential equation system, and the 40-dimensional Lorenz-96 system. You may change 'system' to others to track parameters of different systems, e.g., 'system = mg'.
 
 You may change other commands, for example, set 'bi_paarams' as 2 when 'system' is foodchain to track the variations of the parameter, $y_c$ ; or set 'test_curve = linear' to track sawtooth waveform.
